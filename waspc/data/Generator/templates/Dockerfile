@@ -14,7 +14,7 @@ FROM node:{= nodeMajorVersion =}-alpine3.17 AS node
 # but only for building.
 
 
-FROM node AS base
+FROM node:24.8.0-trixie-slim AS base
 RUN apk --no-cache -U upgrade # To ensure any potential security patches are applied.
 # TODO: Remove line below (installation of openssl 1.1) once Prisma adds support for
 #   openssl 3 on alpine. Alpine >= 3.17 has openssl 3 as default.
