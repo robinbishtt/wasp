@@ -11,9 +11,9 @@
     "start": "node ./dist/index.js"
   },
   "dependencies": {
-    "commander": "^9.4.1",
+    "commander": "^9.5.0",
     "toml": "^3.0.0",
-    "zx": "^7.1.1"
+    "zx": "^7.2.4"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
