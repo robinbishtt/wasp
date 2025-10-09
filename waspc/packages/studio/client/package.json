@@ -12,8 +12,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.6.11",
-    "elkjs": "^0.10.2",
-    "socket.io-client": "^4.7.2"
+ main
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
